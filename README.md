@@ -1,16 +1,35 @@
 # Topological-Sort</br>
-Topological Mata Kuliah :</br>
--- Penjelasan :</br>
----- Untuk mengambil mata kuliah Analisis Algoritma, harus menyelesaikan matkul struktur data dan matematika diskrit</br>
----- untuk mengambil matkul struktur data harus menyelesaikan matkul dasar dasar pemrograman</br>
-----Jadi untuk mengambil mata kuliah analisis algoritma urutannya adalah : </br>
------- dasar dasar pemrograman, struktur data, matematika diskrit, analisis algoritma</br>
------- dasar dasar pemrograman, matematika diskrit, struktur data, analisis algoritma</br>
------- dan lain lain</br>
--- Aplikasi masih simpel dan standar, memeakai algoritma DFS</br>
--- Struktur data : Graf (Array of Linked List) + Hashmap</br>
--- Referensi : http://informatika.stei.itb.ac.id/~rinaldi.munir/Stmik/2006-2007/Makalah_2007/MakalahSTMIK2007-080.pdf</br>
--- Yang harus dimengerti :</br>
----- Rekursif</br>
----- DFS graph traversal</br>
----- Hashmap</br>
+<h1>Topological Mata Kuliah :</h1>
+  <h2>Penjelasan :</h2>
+    <ul>
+      <li>Untuk mengambil mata kuliah Analisis Algoritma, harus menyelesaikan matkul struktur data dan matematika diskrit</li>
+      <li>Untuk mengambil matkul struktur data harus menyelesaikan matkul dasar dasar pemrograman</li>
+      <li>Jadi untuk mengambil mata kuliah analisis algoritma urutannya adalah :
+        <ul>
+        <li>dasar dasar pemrograman, struktur data, matematika diskrit, analisis algoritma</li>
+        <li>dasar dasar pemrograman, matematika diskrit, struktur data, analisis algoritma</li>
+        <li>dan lain lain</li>
+        </ul>
+      </li>
+      <li>Aplikasi masih simpel dan standar, memeakai algoritma DFS</li>
+      <li>Struktur data : Graf (Array of Linked List) + Hashmap</li>
+      <li>Referensi : http://informatika.stei.itb.ac.id/~rinaldi.munir/Stmik/2006-2007/Makalah_2007/MakalahSTMIK2007-080.pdf</li>
+      <li>Animasi : https://visualgo.net/en/dfsbfs</li>
+    </ul>
+  <h2>Catatan Penting</h2>
+    <ul>
+      <li>Kalo cari di internet tentang topological sort, mungkin ada yang beda sama disini. Tapi sebenernya intinya sama aja cuma sudut pandangnya aja berbeda</li>
+      <li>Kalo disini sudut pandang nya kaya gini (contoh kasus diatas):</br>
+      Representasi graf list ketetanggan (Adjacency list) : Array of linked list</br>
+      | analgor | -> matdis -> sda</br>
+      | matdis  |</br>
+      | ddp     |</br>
+      | sda     | -> ddp</br>
+      </li>
+    </ul>
+  <h2>Yang harus dimengerti</h2>
+    <ul>
+      <li>Rekursif</li>
+      <li>DFS graph traversal</li>
+      <li>Hashmap</li>
+    </ul>
