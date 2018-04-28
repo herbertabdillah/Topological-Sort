@@ -35,6 +35,6 @@ public class TopologicalSort {
         while(it.hasNext()){
             proses(it.next());
         }
-        System.out.println(namaSimpul.get(index));
+        System.out.print(namaSimpul.get(index) + ", ");
     }
 }
