@@ -1,6 +1,6 @@
 # Topological-Sort</br>
-<h1>Topological Mata Kuliah :</h1>
-  <h2>Penjelasan :</h2>
+<h2>Topological Mata Kuliah :</h2>
+  <h3>Penjelasan :</h3>
     <ul>
       <li>Untuk mengambil mata kuliah Analisis Algoritma, harus menyelesaikan matkul struktur data dan matematika diskrit</li>
       <li>Untuk mengambil matkul struktur data harus menyelesaikan matkul dasar dasar pemrograman</li>
@@ -16,10 +16,11 @@
       <li>Referensi : http://informatika.stei.itb.ac.id/~rinaldi.munir/Stmik/2006-2007/Makalah_2007/MakalahSTMIK2007-080.pdf</li>
       <li>Animasi : https://visualgo.net/en/dfsbfs</li>
     </ul>
-  <h2>Catatan Penting</h2>
+  <h3>Catatan Penting</h3>
     <ul>
       <li>Kalo cari di internet tentang topological sort, mungkin ada yang beda sama disini. Tapi sebenernya intinya sama aja cuma sudut pandangnya aja berbeda</li>
       <li>Kalo disini sudut pandang nya kaya gini (contoh kasus diatas):</br>
+      <img src="https://github.com/herbiejago/Topological-Sort/raw/master/readme-gambar-0-contoh.png"><br>
       Representasi graf list ketetanggan (Adjacency list) : Array of linked list</br>
       | analgor | -> matdis -> sda</br>
       | matdis  |</br>
@@ -27,7 +28,7 @@
       | sda     | -> ddp</br>
       </li>
     </ul>
-  <h2>Yang harus dimengerti</h2>
+  <h3>Yang harus dimengerti</h3>
     <ul>
       <li>Rekursif</li>
       <li>DFS graph traversal</li>
